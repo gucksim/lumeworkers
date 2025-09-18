@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: poppins;
+}
+
+
+.adbody {
+    background-image: url("https://i.ibb.co/FkY9p9ZC/bgad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: poppins;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(poppins-v23-latin-regular.ttf);
+}
+
+.lumeworkerstitle {
+    font-size: 100px;
+}
+
+.maintitlead {
+    text-align: center;
+}
+
+.createworkearn {
+    width: 500px;
+    height: 150px;
+    background-color: blue;
+    font-family: poppins;
+    color: white;
+    font-size: 50px;
+    border-radius: 32px;
+    border: none;
+    transition: 0.5s;
+}
+
+.createworkearn:hover {
+    cursor: pointer;
+    width: 550px;
+    height: 200px;
+    transition: 0.5s;
+    background-color: rgb(85, 85, 255);
+}
+
+.fromisrael {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.1); /* полупрозрачный белый фон */
+    border-radius: 16px; /* скругление */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* светлая рамка */
+    backdrop-filter: blur(10px); /* размытие фона */
+    -webkit-backdrop-filter: blur(10px); /* для Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+    color: white;
+    display: flex;
+    font-family: poppins;
+    color: black;
+}
+
+ul li a, h2 {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ 
+
+
+
+
+.logolumeworkers {
+    font-size: 20px;
+}
+
+.trend {
+    width: 700px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1); /* полупрозрачный белый фон */
+    border-radius: 16px; /* скругление */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* светлая рамка */
+    backdrop-filter: blur(10px); /* размытие фона */
+    -webkit-backdrop-filter: blur(10px); /* для Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+    color: rgb(0, 0, 0);
+}
+
+.bestvacancys {
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1); /* полупрозрачный белый фон */
+    border-radius: 16px; /* скругление */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* светлая рамка */
+    backdrop-filter: blur(10px); /* размытие фона */
+    -webkit-backdrop-filter: blur(10px); /* для Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+    color: rgb(0, 0, 0);
+}
+
+.cardsmainpage {
+    display: flex;
+    gap: 20px;
+}
+
+.auth {
+    background-color: rgb(48, 48, 255);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.571);
+    width: 300px;
+    height: 57px;
+    border-radius: 16px;
+    font-family: poppins;
+    font-size: 25px;
+}
+
+.gapul {
+    gap: 500px;
+    display: flex;
+}
